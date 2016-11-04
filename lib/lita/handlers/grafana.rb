@@ -3,7 +3,7 @@ module Lita
     class Grafana < Handler
 
       config :url, required: true
-      #config :api_key, required: true
+      config :api_key, required: true
       #config :s3_bucket, required: true
       #config :s3_secret_access_key, required: true
       #config :s3_prefix, required: true
